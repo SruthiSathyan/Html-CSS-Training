@@ -1,0 +1,34 @@
+h1 {
+    color: white;
+  }
+  body {
+    background-color: rgb(167, 218, 201);
+  }
+  #center{
+    text-align:center;
+  }
+  #List1
+  {
+    background-color:rosybrown;
+    padding:5px;
+    
+  }
+  #List2
+  {
+    background-color:rgb(52, 126, 205);
+    padding: 5px;
+    margin-top:5px;
+  }
+  .list1    
+  {
+    background-color:rgb(156, 199, 217);
+    padding: 5px;
+  }
+  .list2
+  {
+    background-color:rgb(113, 137, 171);
+    margin-top: 10px;
+  }
+  .red{
+    color:red;
+  }

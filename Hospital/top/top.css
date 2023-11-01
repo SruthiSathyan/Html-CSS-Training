@@ -1,0 +1,115 @@
+.middle{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.doc-img {
+    width: 100%;
+}
+.middle{
+    position:relative;
+}
+.Text{
+    position:absolute;
+    top:100px;
+    left:16px;
+    margin-left: 60px;
+}
+.BookanAppointment{
+    background-color: #17C1A3;
+    color:white;
+    height:60px;
+    width:200px;
+    border:none;
+    border-radius:6px;
+}
+.Call{
+    background:transparent;
+    height:60px;
+    width:200px;
+    border:none;
+    text-decoration: underline;
+}
+.buttons{
+    position:absolute;
+    left:70px;
+    top:400px;
+    display:flex;
+}
+.Book{
+    position:absolute;
+    left:70px;
+    top:500px;
+    background-color: white;
+    width:900px;
+    padding-left: 20px;
+    border-radius:20px;
+    margin-left:50px;
+    
+}
+h1{
+    font-size:20px;
+}
+.select-department{
+    display:flex;
+    margin-bottom: 20px;
+}
+.select-doctor{
+    display:flex;
+    padding-left: 20px;
+}
+input{
+    height:50px;
+    width:200px;
+    border-radius:6px;
+    border: solid 0.5px grey;
+}
+select{
+    height:55px;
+    width:185px;
+    border-radius:6px;
+    padding-left: 20px;
+    width:260px;
+    text-align:center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border:2px solid;
+    padding: auto;
+    border:solid 0.5px grey;
+}
+.fname{
+    width:250px;
+    text-align:center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-color: rgb(165, 160, 160);
+}
+.department{
+    display:flex;
+}
+.dept{
+    width:350px;
+}
+.dept-image{
+    padding-right:60px;
+}
+.mask{
+    width:100%;
+    padding-top: 80px;
+    padding-bottom:80px;
+}
+.Specialist-contain{
+    text-align:center;
+}
+.Specialist-photo{
+    display:flex;
+    width:400px;
+}
+.Specialist{
+    width:245px;
+    height:200px;
+}
+.SP{
+    padding-right:60px;
+    width:300px;
+}
