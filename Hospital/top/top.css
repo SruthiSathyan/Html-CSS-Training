@@ -75,14 +75,14 @@ select{
     margin-bottom: 20px;
     border:2px solid;
     padding: auto;
-    border:solid 0.5px grey;
+    border:solid 0.5px rgb(162, 161, 161);
 }
 .fname{
     width:250px;
     text-align:center;
     margin-right: 20px;
     margin-bottom: 20px;
-    border-color: rgb(165, 160, 160);
+    border-color: rgb(203, 199, 199);
 }
 .department{
     display:flex;
@@ -101,15 +101,231 @@ select{
 .Specialist-contain{
     text-align:center;
 }
+.Specialist-contain h2{
+    padding-bottom: 1px;
+}
 .Specialist-photo{
     display:flex;
     width:400px;
 }
 .Specialist{
     width:245px;
-    height:200px;
+    height:300px;
 }
 .SP{
     padding-right:60px;
     width:300px;
+}
+.nurse{
+    display:flex;
+    width:100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height:max-content;
+    background-color:#E8F9F6;
+}
+.nurse-photo{
+    flex:1;
+    
+}
+.nurse-text{
+    flex:1;
+    margin-top:30px;
+    padding:20px;
+}
+.mask{
+    height:450px;
+    padding:0px 0px;
+    margin-bottom: -5px;
+}
+.iconwithtext{
+    list-style-image: url(/Hospital/top/img/tick-icon.png);
+}
+.iconwithtext li{
+    padding:10px 10px;
+    font-size:15px;
+}
+.nurse-text h2{
+    margin-left:15px;
+}
+.ViewButton{
+    border:none;
+    background-color: #17C1A3;
+    color:white;
+    height:30px;
+    width:100px;
+    border-radius:6px;
+    margin-left:531px;
+    margin-right:204;
+}
+.FacilityContainer{
+    margin-top: 80px;
+    margin-bottom: 240px;
+}
+.FacilityImageContainer{
+    display:flex;
+    width:100%;
+}
+.Facility{
+    width:375px;
+    padding-right: 20px;
+}
+.InterestPhotoContainer{
+    display:flex;
+}
+.Interest{width:350px;}
+ .interest-image{
+    padding-right:20px;
+    padding-left:10px;
+ }
+ 
+a{
+    text-decoration: none;
+    color:#17C1A3;
+}
+.newsletter{
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-image: url(/Hospital/top/img/design.png);
+    margin-bottom: 20px;
+    height:200px;
+    display:flex;
+    margin:100px 100px;
+}
+.insideButton{
+    background-color: #17C1A3;
+    color:white;
+    height:50px;
+    width:150px;
+    border:none;
+    border-radius:6px;
+}
+.newsletterButton{
+    flex:1;
+    margin-top:70px;
+}
+.newsletterText{
+    flex:1;
+    margin-top:70px;
+    border:solid 0px;
+}
+.newsletterButton{
+    display:inline-flex;
+}
+.newsletterButton input{
+    border:0px solid;
+}
+
+.newsletterText{
+    padding-left: 100px;
+}
+.All container{
+    background-color: #17C1A3;
+}
+.blank{
+position:absolute;
+background-color: #EAF2FF;
+margin-left: -35px;
+
+}
+.IntrestContainer{
+    position:relative;
+    top:-150px;
+}
+
+#footer{
+    margin-top: 760px;
+    width: 100%;
+    height: 50vh;
+    background: #F9FAFA;
+ 
+}
+#footer-top-1{
+    display: flex;
+    height: 27vh;
+    justify-content: space-between;
+    align-items: end;
+    /* padding:90px 0px 0px 0px ; */
+}
+#footer-logo{
+    width: 200px;
+}
+#footer-logo-txt{
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 3px;
+    margin-left: 80px;
+   
+}
+#footer-top-text{
+    font-size: 13px;
+}
+#footer-aboutgg{
+    /* display: flex; */
+    width: fit-content;
+    margin-left: 250px;
+    margin-bottom: 2px;
+ 
+}
+.footer-write-t-list{
+    display: flex;
+}
+.footer-write-t{
+    padding-left: 15px;
+}
+.footer-write-txt{
+    font-size: 13px;
+    padding: 16px;
+    line-height: 20px;
+
+}
+#footer-lagal{width:300px;
+    width: fit-content;
+    margin-right: 80px;
+    margin-bottom: 2px;
+}
+ 
+ 
+ 
+ 
+#footer-bottom-1{
+    display: flex;
+    justify-content: space-between;
+}
+#footer-address{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-left: 70px;
+   
+}
+#footer-phone{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    /* margin-top: 7px; */
+}
+#footer-media{
+    margin-right: 145px;
+    margin-top: 15px;
+}
+#footer-mail{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    /* margin-right: 20px; */
+    margin-left: 50px;
+}
+#br-footer{
+    line-height: 2px;
+}
+#media-icons{
+    margin-top: 10px;
+}
+.footer-small-images{
+   width: 13px;
+   margin-top: 15px;
+}
+.footer-write-txt-content{
+    padding:15px !important;
 }
