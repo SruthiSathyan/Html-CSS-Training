@@ -225,12 +225,15 @@ a{
 .blank{
 position:absolute;
 background-color: #EAF2FF;
-margin-left: -35px;
+margin-left: -48px;
+width: 100%;
+margin-right:0px;
 
 }
 .IntrestContainer{
     position:relative;
     top:-150px;
+    margin-left:43px;
 }
 
 #footer{
@@ -281,8 +284,9 @@ margin-left: -35px;
 }
 #footer-lagal{width:300px;
     width: fit-content;
-    margin-right: 80px;
-    margin-bottom: 2px;
+    margin-right: 20px;
+    margin-bottom: -1px;
+    margin-top:2px;
 }
  
  
@@ -325,7 +329,4 @@ margin-left: -35px;
 .footer-small-images{
    width: 13px;
    margin-top: 15px;
-}
-.footer-write-txt-content{
-    padding:15px !important;
 }
